@@ -1,0 +1,30 @@
+.left-column {
+  background-color: lightblue;
+}
+
+.center-column {
+  background-color: white;
+}
+
+.right-column {
+  background-color: lightblue;
+}
+
+.foot-left {
+  float: left;
+  width: 20%;
+}
+
+.foot-center {
+  float: left;
+  width: 60%;
+}
+
+.foot-right {
+  float: left;
+  width: 20%;
+}
+
+mat-slider {
+  width: 350px;
+}
