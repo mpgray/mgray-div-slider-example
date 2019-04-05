@@ -23,7 +23,6 @@ export class DivExampleComponent implements OnInit {
   getPeople() {
     this.people = [];
     this.rest.getExampleItem().subscribe((data: {}) => {
-      console.log(data);
       this.people = data;
       console.log(this.people.quantity);
       this.updateSlider(this.people.quantity);
@@ -34,7 +33,6 @@ export class DivExampleComponent implements OnInit {
   updatePeople() {
     this.people = [];
     this.rest.updateExampleItem(this.people).subscribe((data: {}) => {
-      console.log(data);
       this.people = data;
       console.log(this.people.quantity);
       this.updateSlider(this.people.quantity);
